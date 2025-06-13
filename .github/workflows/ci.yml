@@ -28,5 +28,4 @@ jobs:
 
       - name: Test
         run: |
-          ./main_unpacked
-          ./main_packed
+          ./rere.py replay test.list
